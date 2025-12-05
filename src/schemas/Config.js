@@ -82,7 +82,7 @@ const configSchema = new mongoose.Schema({
     appearance: {
       embedColor: {
         type: String,
-        default: '#5865F2'
+        default: '#000000'
       },
       useTimestamps: {
         type: Boolean,
